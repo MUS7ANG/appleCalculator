@@ -10,7 +10,7 @@ import SwiftUI
 
 enum ButtonType: Hashable, CustomStringConvertible {
     case digit(_ digit: Digit)
-    case operation(_ operation: ArifmeticOperations)
+    case operation(_ operation: ArithmeticOperation)
     case negative
     case percent
     case decimal
